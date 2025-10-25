@@ -1,4 +1,4 @@
-
+// model tem as funções que fazem parte operações no banco de dados como inserir e buscar livros
 const { sql, getConnection } = require("../config/database");
 
 const LivrosModel = {

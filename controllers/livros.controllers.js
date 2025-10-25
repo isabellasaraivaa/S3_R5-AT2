@@ -1,4 +1,5 @@
-const { LivrosModel } = require("../models/livros");
+//controller recebe as requisições HTTP e chama o model para executar ações no banco de dado
+const { LivrosModel } = require("../models/livroModel");
 
 const livrosController = {
     listarLivros: async (req, res) => {

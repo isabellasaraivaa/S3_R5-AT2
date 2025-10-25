@@ -3,15 +3,23 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "mssql": "^12.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isabellasaraivaa/S3_R5-AT2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/isabellasaraivaa/S3_R5-AT2/issues"
+  },
+  "homepage": "https://github.com/isabellasaraivaa/S3_R5-AT2#readme",
+  "description": ""
 }
